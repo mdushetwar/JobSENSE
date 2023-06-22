@@ -2,12 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import spacy
+import pickle
 import streamlit.components.v1 as com
 
 # Load the NER model
 
 def load_model():
-    return spacy.load("model-best")
+    return pickle.load(open("ner_model.pkl", "rb"))
 
 ner_model = load_model()
 
