@@ -64,7 +64,7 @@ if not main_button:
     # Welcome to JobSENSE!
     """)
 
-    com.iframe("https://embed.lottiefiles.com/animation/146741")
+    #com.iframe("https://embed.lottiefiles.com/animation/146741")
 
     st.markdown("""
     ### Here are some tips to maximize your results and enhance your experience:
