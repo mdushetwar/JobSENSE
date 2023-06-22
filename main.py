@@ -218,7 +218,7 @@ def text_processor(text, lower=True, stop_word=True, sym_replace=True, short_for
   return text
 
 #loading ner_model
-ner_model=spacy.load("model-best")
+ner_model=pickle.load(open('ner_model.pkl', 'rb'))
 
 #keyBERT model
 keyword_model=KeyBERT()
