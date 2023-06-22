@@ -2,6 +2,7 @@
 #Libraries
 import streamlit as st
 import pandas as pd
+import numpy as np
 import pickle
 from spacy import displacy
 import nltk
@@ -237,8 +238,8 @@ def get_entities(text, ent_name):
   doc=ner_model(text)
   for ent in doc.ents:
     if ent.label_==ent_name:
-      entities.append(ent.text)
-  return entities
+      entities.append(ent.text.lower())
+  return np.unique(entities)
 
 def visualize_text_view(text):
 
@@ -372,11 +373,12 @@ if not main_button:
     st.markdown("""
     ### Here are some tips to maximize your results and enhance your experience:
 
-    #### 1. Break down lengthy job descriptions into manageable sections.
-    #### 2. Better visual experience with concise, 10-15 line descriptions.
-    #### 3. Enhance results by using one sentence per line.
-    #### 4. Current update excels in delivering better results for data-related job positions.
-    #### 5. While JobSENSE also caters to other job types, accuracy may slightly vary.
+    ##### 1. Light mode is recommended for better viewing experience
+    ##### 2. Break down lengthy job descriptions into manageable sections
+    ##### 3. Better visual experience with concise, 10-15 line descriptions
+    ##### 4. Enhance results by using one sentence per line
+    ##### 5. Current update excels in delivering better results for data-related job positions
+    ##### 6. While JobSENSE also caters to other job types, accuracy may slightly vary
 
     """)
 
