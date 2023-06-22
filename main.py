@@ -331,25 +331,6 @@ def entity_score(text, entity):
 
 # "---------------------------Streamlit App----------------------------"
 
-       
-st.markdown('''
-<style>
-.css-mnrsrp.e1ewe7hr3
-{
-  visibility:hidden;
-}
-</style>
-''', unsafe_allow_html=True)
-
-st.markdown('''
-<style>
-.css-sgy19w.e1g8pov61
-{
-  visibility:hidden;
-}
-</style>
-''', unsafe_allow_html=True)
-
 #sidebar
 st.sidebar.markdown("# JobSENSE")
 
