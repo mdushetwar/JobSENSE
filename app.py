@@ -19,7 +19,7 @@ def get_entities(text, ent_name):
             entities.append(ent.text.lower())
     return np.unique(entities)
 
-
+#displacy render
 def visualize_text_view(text):
     colors = {
         "TOOL": "#F4A6C1",
