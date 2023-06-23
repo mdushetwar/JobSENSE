@@ -1,6 +1,6 @@
 # JobSENSE 🚀
 
-JobSENSE is a powerful web application that analyzes job descriptions and extracts key details to provide you with valuable insights. It simplifies the process of understanding job requirements and helps you optimize your job search. With JobSENSE, you can unlock the secrets hidden within job postings and gain a competitive edge in your career journey.
+JobSENSE is a simple but very useful web application that analyzes job descriptions and extracts key details to provide you with valuable insights. It simplifies the process of understanding job requirements and helps you optimize your job search. With JobSENSE, you can unlock the secrets hidden within job postings and gain a competitive edge in your career journey.
 
 Here is the link to JobSENSE app: https://jobsense.streamlit.app/
 
