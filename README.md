@@ -22,4 +22,4 @@ Here is the link to JobSENSE app: https://jobsense.streamlit.app/
 
 Thank you for choosing JobSENSE to enhance your job search journey. We believe that understanding job requirements should be easy, empowering, and enjoyable. With JobSENSE, you're one step closer to finding your dream job! 😊✨
 
-## Developed by [Mayur Dushetwar](www.mayurdushetwar.com) 
+## Developed by Mayur Dushetwar(www.mayurdushetwar.com)
