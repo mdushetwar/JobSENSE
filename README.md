@@ -20,6 +20,6 @@ Here is the link to JobSENSE app: https://jobsense.streamlit.app/
 
 3️⃣ **Explore Key Details**: JobSENSE presents the extracted information in an intuitive and visually appealing format, allowing you to explore the technical skills, soft skills, tools/models/frameworks, education/degree requirements, work experience, and domain knowledge associated with the job.
 
-Thank you for choosing JobSENSE to enhance your job search journey. We believe that understanding job requirements should be easy, empowering, and enjoyable. With JobSENSE, you're one step closer to finding your dream job! 😊✨
+Thank you for choosing JobSENSE to enhance your job search journey. I believe that understanding job requirements should be easy, empowering, and enjoyable. 😊✨
 
 ## Developed by Mayur Dushetwar(www.mayurdushetwar.com)
